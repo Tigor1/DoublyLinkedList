@@ -1,4 +1,4 @@
-package ru.university.laba1;
+package ru.university.oldVersion;
 
 import java.util.*;
 
