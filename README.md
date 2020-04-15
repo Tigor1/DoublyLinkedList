@@ -2,15 +2,15 @@
 
 Вариант №4: написать программу удаления N-ого в списке.
 Вариант №5: написать программу удаления M элементов из списка, начиная с N-ой позиции.
-Вариант №5: написать программу объединения двух списков в третий так, нечетные(по номеру) элементы
+Вариант №6: написать программу объединения двух списков в третий так, нечетные(по номеру) элементы
 были из первого списка, четные из второго.
 Вариант №12: Написать программу удаления из списка всех вхождений заданного элемента.
 Вариант №14: Написать программу объединения двух списков в третий так, чтобы одинаковые элементы из
 разных списков не повторялись.
 Вариант №15: написать программу инвертирование списка.
-Вариант №16: написать программу вставки в список другого списока, начиная с N-й позиции.
+Вариант №16: написать программу вставки в список другого списка, начиная с N-й позиции.
 
 double link
-![double link](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsubscription.packtpub.com%2Fbook%2Fprogramming%2F9781785285493%2F5%2Fch05lvl1sec41%2Fdoubly-linked-lists&psig=AOvVaw2CypoiyW3HrRb_EQPqn-f6&ust=1586986176601000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKD0s7nu6OgCFQAAAAAdAAAAABAD)
+![double-link](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsubscription.packtpub.com%2Fbook%2Fprogramming%2F9781785285493%2F5%2Fch05lvl1sec41%2Fdoubly-linked-lists&psig=AOvVaw2CypoiyW3HrRb_EQPqn-f6&ust=1586986176601000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKD0s7nu6OgCFQAAAAAdAAAAABAD)
 
 

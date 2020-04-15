@@ -4,7 +4,7 @@ import lombok.Setter;
 import lombok.Getter;
 
 public class Node<T> {
-    @Getter private T data;
+    @Getter @Setter T data;
     @Getter @Setter private Node<T> next;
     @Getter @Setter private Node<T> prev;
 
