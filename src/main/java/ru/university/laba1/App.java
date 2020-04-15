@@ -11,22 +11,19 @@ public class App {
       linkedList.add(1);
       linkedList.add(2);
       linkedList.add(3);
-      linkedList.add(4);
-      linkedList.add(5);
-      linkedList.add(6);
-      linkedList.add(6);
+      linkedList.addConstNTimes(1, 10);
 //      linkedList2.add(11);
 //      linkedList2.add(12);
 //      linkedList2.add(13);
 //      linkedList2.add(14);
 //      linkedList.reverse();
-//      linkedList.printList();
+      linkedList.printList();
 
 //      linkedList.addAllFromN(linkedList2, 3);
 //      linkedList.printList();
 
-        MyList<Integer> result = MyCollections.swapPartByIndex(linkedList, 0);
-        result.printList();
+//        MyList<Integer> result = MyCollections.swapPartByIndex(linkedList, 0);
+//        result.printList();
 
 //      MyList<Integer> result = MyCollections.joinUnique(linkedList, linkedList2);
 //      result.printList();
@@ -39,8 +36,8 @@ public class App {
 //      linkedList.removeMElemFromN(9, 0);
 //      linkedList.printList();
 //
-      System.out.println("head: " + ((MyDoubleLinkedList<Integer>)result).getHead().getData());
-      System.out.println("tail: " + ((MyDoubleLinkedList<Integer>)result).getTail().getData());
-      System.out.println("size: " + ((MyDoubleLinkedList<Integer>)result).getSize());
+      System.out.println("head: " + linkedList.getHead().getData());
+      System.out.println("tail: " + linkedList.getTail().getData());
+      System.out.println("size: " + linkedList.getSize());
     }
 }

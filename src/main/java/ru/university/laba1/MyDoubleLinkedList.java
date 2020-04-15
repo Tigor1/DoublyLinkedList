@@ -192,6 +192,21 @@ public class MyDoubleLinkedList<T> implements MyList<T>{
         node2.setData(tmp);
     }
 
+    //Вариант 30
+    public void addConstNTimes(T data, int amount) {
+        Node<T> current = tail;
+
+        for (int i = 0; i < amount; i++) {
+            Node<T> newNode = new Node<>(data);
+
+            current.setNext(newNode);
+            newNode.setPrev(current);
+            current = current.getNext();
+            size++;
+        }
+        tail = current;
+    }
+
     public void printList() {
         Node<T> current = head;
 
