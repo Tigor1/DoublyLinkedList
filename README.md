@@ -1,27 +1,41 @@
-#Work with list
+# Doubly linked list
 
-Вариант №4: написать программу удаления N-ого в списке.
+In this project, I study how the doubly linked list works. I wrote my implementation of this data structure in java.
+and did the task that was given at the university.
 
-Вариант №5: написать программу удаления M элементов из списка, начиная с N-ой позиции.
+### About doubly linked list
 
-Вариант №6: написать программу объединения двух списков в третий так, нечетные(по номеру) элементы
-были из первого списка, четные из второго.
+A doubly linked list whose nodes contain three fields: the link to the previous node, an integer value, and the link to the next node.
+There is also reference to head and tail of list. It is possible to iterate over a doubly linked list in both directions starting from head or tail because every node has prev and next references.
 
-Вариант №12: Написать программу удаления из списка всех вхождений заданного элемента.
+![doubleLinkedLIST](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2019/06/A-basic-layout-of-the-doubly-linked-list.png)
 
-Вариант №14: Написать программу объединения двух списков в третий так, чтобы одинаковые элементы из
-разных списков не повторялись.
+Adding and removing elements from any part of the list is faster and more efficient then array. Retrieval is slower as the list has to traverse through each node to identify the correct one.
 
-Вариант №15: написать программу инвертирование списка.
+##### Description node in java code
 
-Вариант №16: написать программу вставки в список другого списка, начиная с N-й позиции.
+```
+public class Node<T> {
+     T data;
+     private Node<T> next;
+     private Node<T> prev;
+ 
+     ....
+ }
+``` 
 
-Вариант №26: написать программу разделения исходного списка по N-му элементу и соединения полученных частей
-в новыйи список таким образом, чтобы первая часть стала второй, а вторая - первой.
+### University tasks
 
-Вариант №30: написать программу дописывания заданной константы N раз в конец списка. 
-
-double link
-![doubleLinkedLIST](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsubscription.packtpub.com%2Fbook%2Fprogramming%2F9781785285493%2F5%2Fch05lvl1sec41%2Fdoubly-linked-lists&psig=AOvVaw2CypoiyW3HrRb_EQPqn-f6&ust=1586986176601000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKD0s7nu6OgCFQAAAAAdAAAAABAD)
+| № | task | completed |
+|---|------|:-----------:|
+| 4 |   Написать программу удаления N-ого в списке.   |+|
+| 5 |   Написать программу удаления M элементов из списка, начиная с N-ой позиции.   |+|
+| 6 |   Написать программу объединения двух списков в третий так, чтобы нечетные(по номеру) элементы были из первого списка, четные из второго.   |+|
+| 12 |   Написать программу удаления из списка всех вхождений заданного элемента.   |+|
+| 14 |   Написать программу объединения двух списков в третий так, чтобы одинаковые элементы изразных списков не повторялись.   |+|
+| 15 |   Написать программу инвертирование списка.   |+|
+| 16 |   Написать программу вставки в список другого списка, начиная с N-й позиции.   |+|
+| 26 |   написать программу разделения исходного списка по N-му элементу и соединения полученных частей в новыйи список таким образом, чтобы первая часть стала второй, а вторая - первой.   |+|
+| 30 |   написать программу дописывания заданной константы N раз в конец списка. |+|
 
 
