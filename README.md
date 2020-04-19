@@ -11,7 +11,7 @@ There is also link to head and tail of list. It is possible to iterate over a do
 ![doubleLinkedLIST](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2019/06/A-basic-layout-of-the-doubly-linked-list.png)
 
 
-###Comparison whith array
+### Comparison whith array
 
 | BASIS FOR COMPARISON |  ARRAY |  LINKED LIST |
 |:----------------------:|--------|--------------|
@@ -23,7 +23,7 @@ There is also link to head and tail of list. It is possible to iterate over a do
 |Memory required|	less|	More|
 |Memory Utilization|	Ineffective|	Efficient|
 
-###Description node in java code
+### Description node in java code
 
 ```
 public class Node<T> {
