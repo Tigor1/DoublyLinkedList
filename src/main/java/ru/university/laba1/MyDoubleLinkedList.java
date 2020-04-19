@@ -136,13 +136,13 @@ public class MyDoubleLinkedList<T> implements MyList<T>{
     //Вариант №16
     public void addAllFromN(MyList<T> list, int index) {
         if (index > size || list.getSize() == 0) return;
-
+        int tmpSize = list.getSize();
         Node<T> current = head;
 
         for (int i = 1; i < index; i++)
             current = current.getNext();
         if (index != 0) {
-            for (int i = 0; i < list.getSize(); i++) {
+            for (int i = 0; i < tmpSize; i++) {
                 Node<T> newNode = new Node<>(list.getByIndex(i));
 
                 newNode.setNext(current.getNext());
@@ -160,7 +160,7 @@ public class MyDoubleLinkedList<T> implements MyList<T>{
             Node<T> cur = newHead;
             size++;
 
-            for (int i = 1; i < list.getSize(); i++) {
+            for (int i = 1; i < tmpSize; i++) {
                 Node<T> newNode = new Node<>(list.getByIndex(i));
 
                 cur.setNext(newNode);
@@ -211,8 +211,9 @@ public class MyDoubleLinkedList<T> implements MyList<T>{
         Node<T> current = head;
 
         while (current != null) {
-            System.out.println(current.getData());
+            System.out.print(current.getData() + "\t");
             current = current.getNext();
         }
+        System.out.println();
     }
 }

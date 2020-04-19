@@ -29,7 +29,7 @@ public class MyCollections {
 
     //Вариант №13
     static public <T extends Comparable<T>> MyList<T> joinUnique(MyList<T> list1, MyList<T> list2) {
-        Set<T> set = new TreeSet<>();
+        Set<T> set = new LinkedHashSet<>();
 
         for (int i = 0; i < list1.getSize(); i++)
             set.add(list1.getByIndex(i));
