@@ -49,4 +49,16 @@ public class Node<T> {
 | 26 |  разделения исходного списка по N-му элементу и соединения полученных частей в новыйи список таким образом, чтобы первая часть стала второй, а вторая - первой.   |+|
 | 30 |  дописывания заданной константы N раз в конец списка. |+|
 
+### Build and run project
+
+You need [git](https://git-scm.com/), [maven](https://maven.apache.org/index.html), [jdk](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) to build this project.
+
+```
+git clone https://github.com/Tigor1/DoublyLinkedList.git DoublyLinkedList
+cd DoublyLinkedList
+mvn package
+cd target
+java -jar doublyLinkedList-1.0-SNAPSHOT.jar
+```
+
 
