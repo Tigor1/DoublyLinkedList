@@ -1,11 +1,8 @@
-package ru.university.laba1;
+package ru.university.laba1.list;
 
 import lombok.Getter;
-import lombok.Setter;
 
 import java.util.Collection;
-import java.util.Collections;
-import java.util.Set;
 
 public class MyDoubleLinkedList<T> implements MyList<T>{
     @Getter private Node<T> head;

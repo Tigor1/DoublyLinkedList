@@ -1,7 +1,10 @@
 package ru.university.laba1;
 
+import ru.university.laba1.Collections.MyCollections;
+import ru.university.laba1.list.MyDoubleLinkedList;
+import ru.university.laba1.list.MyList;
+
 import java.util.Arrays;
-import java.util.Random;
 
 public class App {
     public static void main(String[] args) {
@@ -158,7 +161,6 @@ public class App {
 
     static public MyList<Integer> initInt(int size) {
     MyList<Integer> result = new MyDoubleLinkedList<>();
-    Random random = new Random();
 
     for (int i = 0; i < size; i++) {
       result.add((int)((Math.random() * 9) + 1));

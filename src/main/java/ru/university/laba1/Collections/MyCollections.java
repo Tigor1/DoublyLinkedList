@@ -1,4 +1,7 @@
-package ru.university.laba1;
+package ru.university.laba1.Collections;
+
+import ru.university.laba1.list.MyDoubleLinkedList;
+import ru.university.laba1.list.MyList;
 
 import java.util.*;
 

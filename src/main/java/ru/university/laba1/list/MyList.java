@@ -1,4 +1,4 @@
-package ru.university.laba1;
+package ru.university.laba1.list;
 
 public interface MyList<T> {
 
